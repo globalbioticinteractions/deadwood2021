@@ -3,21 +3,21 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Terrestrial Parasite Tracker / Global Biotic Interactions"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "Dead Wood Meeting 2021"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "28 April 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "11am - 1p Pacific"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-04-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-04-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Katja Seltmann", "Jorrit Poelen"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+humandate: "25,29 October 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 - 17:00 CST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2021-10-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-10-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Jorrit Poelen", "Dmitry Schigel", "Talya Hackett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: [ "you!" ]
 
 # ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["seltmann@ccber.ucsb.edu","jhpoelen@jhpoelen.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["jhpoelen@jhpoelen.nl","dschigel@gbif.org",talya.hackett@zoo.ox.ac.uk]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -92,22 +92,30 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-Join Jorrit Poelen and Katja Seltmann for "A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial <a href="https://parasitetracker.org/">Parasite Tracker (TPT)</a> and <a href="https://globalbioticinteractions.org">Global Biotic Interactions (GloBI)</a>." This workshop is facilitated by <a href="https://idigbio.org">Integrated Digitized Biocollections (iDigBio)</a>. For more information see <a href="https://www.idigbio.org/content/practical-exploration-biotic-interaction-data-management-and-information-retrieval-through">iDigBio's workshop wiki</a>.
+[ForBio](https://www.forbio.uio.no/) and [UiB](https://www.uib.no/) Dead Wood Meeting 2021, Satellite workshops cover (1) Managing interactions data and (2) Analysis and visualization of interaction datasets . The goals is to introduce basics of current informatics methods in working with interaction data to students and researchers of dead wood systems.
 
-During this two-hour long, participatory workshop collection managers, researchers, or data providers will use GloBI for data management and information retrieval. Our group exploration into the data will cover the data origins and data integration process and data products.
+In the morning sessions, [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (postdoctoral researcher at the Department of Zoology, University of Oxford, England, UK) shares insights into constructing, publishing, analyzing, and visualizating interaction data.
 
-This workshop is open to anyone interested in biotic or species interaction data even if you are presently not using GloBI. We will highlight data from the Terrestrial Parasite Tracker project, but the methods are available for anyone interested in biotic interactions (see more at <a href="https://www.globalbioticinteractions.org/sources">https://www.globalbioticinteractions.org/sources</a>).
+In the afternoon sessions, [Jorrit Poelen](https://jhpoelen.nl) (co-founder of Global Biotic Interactions, Ronin Research Scholar and Research Affiliate at UC Santa Barbara Cheadle Center for Biodiversity and Ecological Restoration), facilitates hands-on assignments on current informatics methods to publish and re-use interaction data, as well as introducing ways to visualize interactions data. 
 
-The proposed outcome of this workshop is a reusable Carpentries lesson and improved documentation on methods to integrate and access biotic interaction data. We will work together through a series of exploratory data exercises. No programming experience is required, and you will use your own device to download data and create Google Sheets. Everyone will contribute during this workshop. Bring snacks! :)
+The workshop was conceived, and is facilitated, by [Dr. Dmitry Schigel](http://adlignum.com/about/), Scientific Officer at Global Biodiversity Information Facility (GBIF, [https://gbif.org](https://gbif.org)). 
+
+For more information about the ForBio and UiB Dead Wood 2021 Meeting see <a href="https://www.forbio.uio.no/events/courses/2021/Deadwood_2021">ForBio's announcement</a>, and the <a href="http://adlignum.com/teaching/dead-wood-meeting-2021/">meeting agenda</a>.
+
+During this two-day long, participatory workshop students and researchers will explore the current informatics methods used to work with interaction data "in the wild." Our group exploration into the data will cover the data origins, data integration process, data publishing, data analysis, and data visualization. 
+
+This workshop is open to registered participants. 
+
+The proposed outcome of this workshop is a reusable Carpentries lesson, and improved documentation on methods to integrate, access, and visualize biotic interaction data through participant written blog posts. We will work together through a series of exploratory data exercises. No programming experience is required, and you will use your own device to download data and create Google Sheets. Everyone will contribute during this workshop. Bring snacks! :)
 
 ## Acknowledgements
 A special thanks to the thousands of (citizen) scientists and their institutions for openly sharing their [datasets](https://globalbioticinteractions.org/sources). Also, thanks for thousands of software engineers for providing high quality open source software on which GloBI is built. 
 
-This workshop is supported by the <img src="fig/parasite_tracker_logo.png" class="inline-image"> [Terrestrial Parasite Tracker](https://parasitetracker.org) project through the <img src="fig/nsf_logo.png" class="inline-image"> [National Science Foundation](https://nsf.gov) award "Collaborative Research: Digitization TCN: Digitizing collections to trace parasite-host associations and predict the spread of vector-borne disease," Award numbers [DBI:1901932](https://nsf.gov/awardsearch/showAward?AWD_ID=1901932&HistoricalAwards=false) and [DBI:1901926](https://nsf.gov/awardsearch/showAward?AWD_ID=1901926&HistoricalAwards=false) . 
+The symposium is organized by ForBio and University Museum of Bergen, with the support from Lomonosov Moscow State University, the Norwegian University of Life Sciences, the Norwegian Institute for Nature Research, the University of Oslo, the Voronezhsky State Nature Biosphere Reserve, the University of Helsinki. Funding is provided by the [Directorate for Higher Education and Skills, Norwegian Ministry of Education and Research](https://hkdir.no/the-directorate-for-higher-education-and-skills) (formerly Norwegian Agency for International Cooperation and Quality Enhancement in Higher Education (Diku) and ForBio.
 
-Finally, a big thanks to Erica Krimmel of <img src="fig/idigbio_logo.png" class="inline-image"> [iDigBio](https://www.idigbio.org) for helping to organize and host this workshop, the [Carpentries](https://carpentries.org) for providing excellent workshop/lesson templates, and to all the <img src="fig/globi_logo.png" class="inline-image">[GloBI partners](https://globalbioticinteractions.org/about#partners) for their support.
+Finally, a big thanks to Nataliya Budaeva (nataliya.budaeva@uib.no) for coordinating workshop activities and logistics.
 
-<a href="https://parasitetracker.org"><img src="fig/parasite_tracker_logo.png" class="inline-image" style="height: 5em;"></a> <a href="https://nsf.gov"><img src="fig/nsf_logo.png" class="inline-image" style="height: 6em;"></a> <a href="https://www.idigbio.org/"><img src="fig/idigbio_logo.png" class="inline-image" style="height: 4em;"></a> <a href="https://globalbioticinteractions.org"><img src="fig/globi_logo.png" class="inline-image" style="height: 5em;"></a>
+<a href="https://www.forbio.uio.no/"><img src="fig/forbio_logo.png" class="inline-image" style="height: 5em;"></a> <a href="https://www.uib.no/"><img src="fig/uib_logo.svg" class="inline-image" style="height: 5em;"></a> <a href="https://hkdir.no/"><img src="fig/hkdir_logo.svg" class="inline-image" style="height: 4em;"></a> <a href="https://globalbioticinteractions.org"><img src="fig/globi_logo.png" class="inline-image" style="height: 5em; padding-left: 6em"></a> <a href="https://gbif.org"><img src="fig/gbif_logo.svg" class="inline-image" style="height: 5em; padding-left: 6em"></a>
 
 
 ## Disclaimer
@@ -346,20 +354,6 @@ of code below the Schedule `<h2>` header below with
 <h2 id="schedule">Schedule</h2>
 
 {% include custom-schedule.html %}
-
-<hr/>
-
-## Recording
-
-You can find a mp4 recording of the 2021-04-28 event via:
-
-> Seltmann & Poelen. 2021. A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through Terrestrial Parasite Tracker (TPT) and Global Biotic Interactions (GloBI) [Workshop]. Zenodo. [doi:10.5281/zenodo.4759060](https://doi.org/10.5281/zenodo.4759060) 
-
-or streaming online on Vimeo at:
-
-<iframe src="https://player.vimeo.com/video/546669878" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/546669878">A Practical Exploration of Biotic Interaction Data Management and Information Retrieval through TPT and GloBI</a> from <a href="https://vimeo.com/idigbio">iDigBio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 
 {% comment %}
 SETUP

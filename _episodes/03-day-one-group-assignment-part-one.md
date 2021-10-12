@@ -1,5 +1,5 @@
 ---
-title: "Exploring Ixodes (tick) Records By Pointing and Clicking"
+title: "(Under Construction) Day One Group Assignment Part One"
 teaching: 15
 exercises: 15
 questions:
