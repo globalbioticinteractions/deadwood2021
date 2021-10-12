@@ -83,6 +83,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
+<h2 id="general">🚧 Under Construction 🚧</h2>
 <h2 id="general">General Information</h2>
 
 {% comment %}
