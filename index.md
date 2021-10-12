@@ -115,7 +115,7 @@ A special thanks to the thousands of (citizen) scientists and their institutions
 
 The symposium is organized by ForBio and University Museum of Bergen, with the support from Lomonosov Moscow State University, the Norwegian University of Life Sciences, the Norwegian Institute for Nature Research, the University of Oslo, the Voronezhsky State Nature Biosphere Reserve, the University of Helsinki. Funding is provided by the [Directorate for Higher Education and Skills, Norwegian Ministry of Education and Research](https://hkdir.no/the-directorate-for-higher-education-and-skills) (formerly Norwegian Agency for International Cooperation and Quality Enhancement in Higher Education (Diku) and ForBio.
 
-Finally, a big thanks to Nataliya Budaeva (nataliya.budaeva@uib.no) for coordinating workshop activities and logistics.
+Finally, a big thanks to [Nataliya Budaeva](https://www.uib.no/en/persons/Nataliya.Budaeva) for coordinating workshop activities and logistics.
 
 <a href="https://www.forbio.uio.no/"><img src="fig/forbio_logo.png" class="inline-image" style="height: 5em;"></a> <a href="https://www.uib.no/"><img src="fig/uib_logo.svg" class="inline-image" style="height: 5em;"></a> <a href="https://hkdir.no/"><img src="fig/hkdir_logo.svg" class="inline-image" style="height: 4em;"></a> <a href="https://globalbioticinteractions.org"><img src="fig/globi_logo.png" class="inline-image" style="height: 5em; padding-left: 6em"></a> <a href="https://gbif.org"><img src="fig/gbif_logo.svg" class="inline-image" style="height: 5em; padding-left: 6em"></a>
 
