@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Day One Hackett Data"
+title: "(Under Construction) Day One: Data as a First Class Research Citizen by Dr. Dmitry Schigel"
 teaching: 20
 exercises: 10
 questions:
