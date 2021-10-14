@@ -11,6 +11,7 @@ objectives:
 - "Add dataset to sqlite database"
 - "Learn from each other and ask questions!"
 keypoints:
+(replace 
 - "There is a lot of interaction data available and shell is one helpful tool to reduce the size of the dataset."
 - "Sharing code helps everyone."
 
