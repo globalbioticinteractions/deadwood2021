@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Day Two Hackett Analysis"
+title: "(Under Construction) Day Two Introduction to Network Ecology by Dr. Talya Hackett"
 teaching: 15
 exercises: 5
 questions:
