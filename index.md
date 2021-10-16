@@ -92,25 +92,25 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-[ForBio](https://www.forbio.uio.no/) and [UiB](https://www.uib.no/) Dead Wood Meeting 2021, Satellite workshops cover (1) Managing interactions data and (2) Analysis and visualization of interaction datasets . The goals is to introduce basics of current informatics methods in working with interaction data to students and researchers of dead wood systems.
+[ForBio](https://www.forbio.uio.no/) and [UiB](https://www.uib.no/) Dead Wood Meeting 2021 satellite workshops cover (1) managing interactions data and (2) analysis and visualization of interaction datasets. The goal is to introduce basics of current informatics methods in working with interaction data to students and researchers of dead wood systems.
 
-During this two-day long, participatory workshop, students and researchers will explore the current informatics methods used to work with interaction data "in the wild." Our group exploration into the data will cover the data origins, data integration process, data publishing, data analysis, and data visualization. 
+During this two-day participatory workshop, students and researchers will explore the current informatics methods used to work with interaction data "in the wild." Our group exploration will cover data origins, data integration, data publishing, data analysis, and data visualization. 
 
 In the morning sessions, [Dr. Dmitry Schigel](http://adlignum.com/about/) (Monday) and [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (Tuesday) share their insights on topics like constructing, publishing, analyzing, and visualizing interaction data.
 
-In the afternoon sessions, [Jorrit Poelen](https://jhpoelen.nl) (co-founder of Global Biotic Interactions, Ronin Research Scholar and Research Affiliate at UC Santa Barbara Cheadle Center for Biodiversity and Ecological Restoration), facilitates hands-on assignments on current informatics methods to publish and re-use interaction data, as well as introducing ways to visualize interactions data. 
+In the afternoon sessions, [Jorrit Poelen](https://jhpoelen.nl) facilitates hands-on assignments on current informatics methods to publish and reuse interaction data as well as introduces ways to visualize interactions data. 
 
-The workshop was conceived, and is facilitated, by [Dr. Dmitry Schigel](http://adlignum.com/about/), Scientific Officer at Global Biodiversity Information Facility (GBIF, [https://gbif.org](https://gbif.org)). 
+The workshop was conceived and organized by [Dr. Dmitry Schigel](http://adlignum.com/about/), Scientific Officer at Global Biodiversity Information Facility (GBIF, [https://gbif.org](https://gbif.org)). 
 
-For more information about the ForBio and UiB Dead Wood 2021 Meeting see <a href="https://www.forbio.uio.no/events/courses/2021/Deadwood_2021">ForBio's announcement</a>, and the <a href="http://adlignum.com/teaching/dead-wood-meeting-2021/">meeting agenda</a>.
+For more information about the ForBio and UiB Dead Wood 2021 Meeting see <a href="https://www.forbio.uio.no/events/courses/2021/Deadwood_2021">ForBio's announcement</a> and the <a href="http://adlignum.com/teaching/dead-wood-meeting-2021/">meeting agenda</a>.
 
 
 This workshop is open to registered participants. 
 
-The proposed outcome of this workshop is a reusable Carpentries lesson, and improved documentation on methods to integrate, access, and visualize biotic interaction data through participant written blog posts. We will work together through a series of exploratory data exercises. No programming experience is required, and you will use your own device to download data and create Google Sheets. Everyone will contribute during this workshop. Bring snacks! :)
+The proposed outcomes of this workshop are a reusable Carpentries lesson and improved documentation on methods to integrate, access, and visualize biotic interaction data through participant-written blog posts. We will work together through a series of exploratory data exercises. No programming experience is required, and you will use your own device to download data. Everyone will contribute during this workshop. Bring snacks! :)
 
-## Acknowledgements
-A special thanks to the thousands of (citizen) scientists and their institutions for openly sharing their [datasets](https://globalbioticinteractions.org/sources). Also, thanks for thousands of software engineers for providing high quality open source software on which GloBI is built. 
+## Acknowledgments
+A special thanks to the thousands of (citizen) scientists and their institutions for openly sharing their [datasets](https://globalbioticinteractions.org/sources). Also, thanks to the thousands of software engineers who provide the high-quality open source software on which GloBI, GBIF, and other biodiversity infrastructures are built. 
 
 The symposium is organized by ForBio and University Museum of Bergen, with the support from Lomonosov Moscow State University, the Norwegian University of Life Sciences, the Norwegian Institute for Nature Research, the University of Oslo, the Voronezhsky State Nature Biosphere Reserve, the University of Helsinki. Funding is provided by the [Directorate for Higher Education and Skills, Norwegian Ministry of Education and Research](https://hkdir.no/the-directorate-for-higher-education-and-skills) (formerly Norwegian Agency for International Cooperation and Quality Enhancement in Higher Education (Diku) and ForBio.
 

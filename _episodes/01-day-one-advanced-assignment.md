@@ -5,7 +5,7 @@ exercises: 30
 questions:
 - "What is biotic interaction data?"
 - "Why/How do researchers _publish_ interaction data?"
-- "Why/How do researchers _re-use_ existing interaction data?"
+- "Why/How do researchers _reuse_ existing interaction data?"
 objectives:
 - "Explore ways to find existing interaction datasets"
 - "Understand common definitions of biotic interaction data"
@@ -20,26 +20,26 @@ keypoints:
 
 Welcome to the advanced assignment page of the Dead Wood 2021 Interaction Data workshop! 
 
-In this workshop, we'll be discussing topics related to species interactions (aka biotic interactions, or biotic associations) through talks, hands-on assignments, and group discussions. 
+In this workshop, we'll be discussing topics related to species interactions (aka biotic interactions or biotic associations) through talks, hands-on assignments, and group discussions. 
 
-Our work will be documented in an interactive, collaborative documents like: 
+Our work will be documented in interactive, collaborative documents like: 
 
 https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/
 
 > ## `Assignment: Introduce Yourself` 
-> 1. Go to [https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/](https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/) and,
-> 2. add your name, 
-> 3. field of work/study/research, and,
-> 4. a species interaction you enjoy or find interesting.
+> 1. Go to [https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/](https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/),
+> 2. Add your name, 
+> 3. Add your field of work/study/research, and
+> 4. Describe a species interaction you enjoy or find interesting.
 {: .challenge}
 
 If you'd like, you can copy and paste the following example:
 
-> Hi, my name is [name], the pronouns I use are [pronouns]. I am interested in [field of study/research/work]. In this workshop, I'd like to [goals] . One of my favorite biotic interaction is that of a [describe a species interaction].
+> Hi, my name is [name]. The pronouns I use are [pronouns]. I am interested in [field of study/research/work]. In this workshop, I'd like to [goals]. One of my favorite biotic interaction is that of a [describe a species interaction].
 
 To help you get started, I filled out mine: 
 
-> Hi, my name is Jorrit, the pronouns I use are: he, him, his. I am interested in biodiversity informatics, open science, and software engineering. In this workshop, I'd like to better understand how to make it easier for students/researchers to share, and re-use species interaction data. One of my favorite interaction is of this bird (_Sula leucogaster_)
+> Hi, my name is Jorrit. The pronouns I use are he, him, his. I am interested in biodiversity informatics, open science, and software engineering. In this workshop, I'd like to better understand how to make it easier for students/researchers to share and reuse species interaction data. One of my favorite interactions is of this bird (_Sula leucogaster_)
  riding on the back of a sea turtle (_Chelonia mydas_). See https://www.inaturalist.org/observations/10161815 .
 
 ### What are Species Interactions? 
