@@ -96,7 +96,7 @@ the pitch.
 
 During this two-day participatory workshop, students and researchers will explore the current informatics methods used to work with interaction data "in the wild." Our group exploration will cover data origins, data integration, data publishing, data analysis, and data visualization. 
 
-In the morning sessions, [Dr. Dmitry Schigel](http://adlignum.com/about/) (Monday) and [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (Tuesday) share their insights on topics like constructing, publishing, analyzing, and visualizing interaction data.
+In the morning sessions, [Dr. Dmitry Schigel](http://adlignum.com/about/) (Monday) and [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (Friday) share their insights on topics like constructing, publishing, analyzing, and visualizing interaction data.
 
 In the afternoon sessions, [Jorrit Poelen](https://jhpoelen.nl) facilitates hands-on assignments on current informatics methods to publish and reuse interaction data as well as introduces ways to visualize interactions data. 
 
