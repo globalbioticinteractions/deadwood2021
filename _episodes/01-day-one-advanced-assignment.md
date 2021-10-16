@@ -89,7 +89,11 @@ To continue your preparation for the workshop, please consider reading the follo
 > ## `Background Articles`
 > Hortal, J. et al., 2015. <b>Seven Shortfalls that Beset Large-Scale Knowledge of Biodiversity</b>. <em>Annual Review of Ecology, Evolution, and Systematics</em>, 46(1). Available at: <a href="https://doi.org/10.1146/annurev-ecolsys-112414-054400.">https://doi.org/10.1146/annurev-ecolsys-112414-054400</a>.
 >
+> Piwowar, H.A., Day, R.S. & Fridsma, D.B., 2007. Sharing Detailed Research Data Is Associated with Increased Citation Rate. <em>PLoS ONE</em>. Available at: <a href="https://doi.org/10.1371/journal.pone.0000308">https://doi.org/10.1371/journal.pone.0000308</a>.
+>
 > Soranno, P.A., 2015. <b>It's Good to Share: Why Environmental Scientists’ Ethics Are Out of Date</b>, <em>BioScience</em>. Available at <a href="https://doi.org/10.1093/biosci/biu169">https://doi.org/10.1093/biosci/biu169</a>.
+>
+> Tedersoo, L., Küngas, R., Oras, E. et al. . 2021. Data sharing practices and data availability upon request differ across scientific disciplines. <em>Scientific Data</em>. Available at: <a href="https://doi.org/10.1038/s41597-021-00981-0">https://doi.org/10.1038/s41597-021-00981-0</a>.
 >
 > If you have troubles accessing the articles, please contact the workshop organizers.
 {: .callout}
