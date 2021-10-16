@@ -83,7 +83,6 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">🚧 Under Construction 🚧</h2>
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -97,7 +96,7 @@ the pitch.
 
 During this two-day long, participatory workshop, students and researchers will explore the current informatics methods used to work with interaction data "in the wild." Our group exploration into the data will cover the data origins, data integration process, data publishing, data analysis, and data visualization. 
 
-In the morning sessions, [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (postdoctoral researcher at the Department of Zoology, University of Oxford, England, UK) shares insights into constructing, publishing, analyzing, and visualizating interaction data.
+In the morning sessions, [Dr. Dmitry Schigel](http://adlignum.com/about/) (Monday) and [Dr. Talya Hackett](https://www.zoo.ox.ac.uk/people/dr-talya-hackett#/) (Tuesday) share their insights on topics like constructing, publishing, analyzing, and visualizing interaction data.
 
 In the afternoon sessions, [Jorrit Poelen](https://jhpoelen.nl) (co-founder of Global Biotic Interactions, Ronin Research Scholar and Research Affiliate at UC Santa Barbara Cheadle Center for Biodiversity and Ecological Restoration), facilitates hands-on assignments on current informatics methods to publish and re-use interaction data, as well as introducing ways to visualize interactions data. 
 

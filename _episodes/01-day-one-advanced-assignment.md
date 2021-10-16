@@ -1,66 +1,96 @@
 ---
-title: "(Under Construction) Day One Advanced Assignment"
-teaching: 5
-exercises: 5
+title: "Day One Advanced Assignment"
+teaching: 0
+exercises: 30
 questions:
-- "Where can I download interaction data?"
-- "What formats are the data available?"
+- "What is biotic interaction data?"
+- "Why/How do researchers _publish_ interaction data?"
+- "Why/How do researchers _re-use_ existing interaction data?"
 objectives:
-- "Understand the available ways to get interaction data"
-- "Understand the columns of the downloaded data"
+- "Explore ways to find existing interaction datasets"
+- "Understand common definitions of biotic interaction data"
+- "Provide one example of an existing publication that includes interaction data"
+- "Articulate benefits of openly sharing research data"
 keypoints:
-- "GloBI has interaction data that can be accessed as a full dataset"
-- "Better to use the full or whole dataset than the APIs"
+- "Availability of species interaction datasets is limited"
+- "Open Data, Open Science, and FAIR principles facilitate data availability"
 ---
 
+### Getting Started 
 
-### Getting oriented with GloBI interaction data
+Welcome to the advanced assignment page of the Dead Wood 2021 Interaction Data workshop! 
+
+In this workshop, we'll be discussing topics related to species interactions (aka biotic interactions, or biotic associations) through talks, hands-on assignments, and group discussions. 
+
+Our work will be documented in an interactive, collaborative documents like: 
+
+https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/
+
+> ## `Assignment: Introduce Yourself` 
+> 1. Go to [https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/](https://docs.google.com/document/d/1UaBocn4xURgGeLqsRXmzCXkRY59Ua_2vZdLryRKZ_9I/) and,
+> 2. add your name, 
+> 3. field of work/study/research, and,
+> 4. a species interaction you enjoy or find interesting.
+{: .challenge}
+
+If you'd like, you can copy and paste the following example:
+
+> Hi, my name is [name], the pronouns I use are [pronouns]. I am interested in [field of study/research/work]. In this workshop, I'd like to [goals] . One of my favorite biotic interaction is that of a [describe a species interaction].
+
+To help you get started, I filled out mine: 
+
+> Hi, my name is Jorrit, the pronouns I use are: he, him, his. I am interested in biodiversity informatics, open science, and software engineering. In this workshop, I'd like to better understand how to make it easier for students/researchers to share, and re-use species interaction data. One of my favorite interaction is of this bird (_Sula leucogaster_)
+ riding on the back of a sea turtle (_Chelonia mydas_). See https://www.inaturalist.org/observations/10161815 .
+
+### What are Species Interactions? 
 -----
-> Let's get oriented with the interaction data found on GloBI. GloBI data products are *interpreted* in order to bring together disparate data sources (literature, observations, collections, etc.). This means that GloBI data products are opinionated and may be incomplete compared to the original data sources. Original data can be found from the citations and these should still be considered the detailed building blocks for the entire interaction dataset. 
+> Species interactions drive the ecological engines that keep us alive. Bluntly said: without pollinators, crops would fail, without predators, populations would grow unchecked. Also recent events suggest that better understanding specific species interactions (e.g., virus-host interactions like bat [zoonoses](https://www.cdc.gov/onehealth/basics/zoonotic-diseases.html)) may help us better predict, manage, or even prevent future pandemics. 
 
-> Some of the different sources of data include natural history collection records, observations extracted from the literature, interaction and network datasets, observations from community science programs and other, larger aggregated datasets.
+> ## `Assignment: Define "Species Interaction"` 
+> 1. Write a short description of what you consider a good definition of a species interaction (with references if available). 
+>
+> 2. Share your results in the collaborative document with your name as a prefix in the "Species Interaction Definitions" section. 
+>
+> 3. Make sure that your definition is different than those already added. 
+{: .challenge}
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/blob/gh-pages/fig/data-sources.png?raw=true" height="300" align="middle" />
 
-### Where to find data
+### How are Species Interactions Datasets Made Available? 
 -----
-> Navigate to the [GloBI Data Products](https://www.globalbioticinteractions.org/data) page and explore the [Original Data Sources](https://globalbioticinteractions.org/sources).
+Species interactions are an important aspect of the functioning of ecosystem. To study these ecoystems we need records, or datasets, of known species interactions. However, you may find that species interaction datasets are hard to find and access. 
+
+> ## `Assignment: Find Published Interaction Dataset`
+> Many researchers openly publish their species interaction data in peer-reviewed journals. > 1. Find an example of such a published dataset and describe how you find it. 
+>
+> 2. Add the reference to the dataset and how you found it to the collaborative document, prefixed by your name. 
+> 
+> 3. Make sure that your example is different than those already added. 
+{: .challenge}
 
 
-### What is what?
+### Why share? 
 -----
+Some researchers have good reasons for either sharing or *not* sharing their valuable species interaction data. 
 
-<img src="https://github.com/globalbioticinteractions/interaction-data-workshop/raw/gh-pages/fig/interaction-data.png" height="800" align="middle"  />
+> ## `Assignment: Why share?`
+> 1. Articulate one (or more) reason to share species interaction data, and,
+>
+> 2. Articulate one (or more) reason to *not* share, species interaction data.
+>
+> 3. Share your reasons in the collaborative document, prefixed with your name. 
+>
+> 4. Make sure that your reasons are different than already existing ones. 
+{: .challenge}
 
-**stable** versions of the data are versioned in the [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) GloBI data publication. A new version is done about every six months.
+## Next Up: Workshop Day One
 
-**snapshot** are the most recent, live data. Thus, this could change daily! Great for exploration and preliminary analysis.
+To continue your preparation for the workshop, please consider reading the following research publication:
 
-###  How many records are in the GloBI dataset. It is a lot!
------
-
-~~~
-wc -l interactions.csv
-~~~
-
-### Data publication
-----
-> For research or other data intensive project, it is suggested to use GloBI’s stable versioned integrated data published via [doi:10.5281/zenodo.3950589](https://zenodo.org/record/3950590) or create a new data publication that contains the data you are using.
-
-
-### Other ways of accessing GloBI data
------
-> Exploratory, interactive queries can be executed through SPARQL and Cypher endpoints, GloBI Search/Browse pages, or by using the REST-y GloBI Web API. For those that use R, rglobi is available to explore interaction data. rglobi can also be used to execute Cypher queries. However, it is best to consider these as methods for exploring data rather than data access points. **If you are doing research, download the full dataset and create a version of it**.
-
-> ## `Discussion: Why is it important to version the GloBI data in research?`
-> Take a moment to discuss as a group why it is important to version, publish, or archive a copy of the GloBI dataset you use for research. What are some ways to archive datasets?
-{: .discussion}
-
-## Next Up: Reviewing the Reviews
-
-If you'd like to follow along while working with the entire dataset, please jump to [Working with the Whole Dataset](../03-ixodes-whole-dataset). 
-
-If you would like to explore GloBI data through the GloBI webpage, please visit lesson episode [Point and Click](../04-ixodes-point-and-click).
-
-
+> ## `Background Articles`
+> Hortal, J. et al., 2015. <b>Seven Shortfalls that Beset Large-Scale Knowledge of Biodiversity</b>. <em>Annual Review of Ecology, Evolution, and Systematics</em>, 46(1). Available at: <a href="https://doi.org/10.1146/annurev-ecolsys-112414-054400.">https://doi.org/10.1146/annurev-ecolsys-112414-054400</a>.
+>
+> Soranno, P.A., 2015. <b>It's Good to Share: Why Environmental Scientists’ Ethics Are Out of Date</b>, <em>BioScience</em>. Available at <a href="https://doi.org/10.1093/biosci/biu169">https://doi.org/10.1093/biosci/biu169</a>.
+>
+> If you have troubles accessing the articles, please contact the workshop organizers.
+{: .callout}
 

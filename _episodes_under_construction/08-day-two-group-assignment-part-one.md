@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Day 2 Group Assignment Part 1"
+title: "(Under Construction) Day Two Group Assignment Part 1"
 teaching: 15
 exercises: 5
 questions:
