@@ -10,7 +10,7 @@ language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "25,29 October 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 - 17:00 CST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 - 17:00 CET/Oslo Local Time"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-10-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-10-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jorrit Poelen", "Dmitry Schigel", "Talya Hackett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
