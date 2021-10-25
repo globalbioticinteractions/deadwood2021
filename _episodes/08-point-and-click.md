@@ -1,5 +1,5 @@
 ---
-title: "Exploring Species Interaction Records By Pointing and Clicking"
+title: "Exploring By Pointing and Clicking"
 teaching: 15
 exercises: 15
 questions:
