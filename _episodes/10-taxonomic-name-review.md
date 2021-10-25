@@ -1,5 +1,5 @@
 ---
-title: "Data Sources: Taxonomic Name Review"
+title: "Taxonomic Name Review"
 teaching: 10
 exercises: 10
 questions:

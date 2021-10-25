@@ -1,5 +1,5 @@
 ---
-title: "Exploring Ixodes (tick) Records By Pointing and Clicking"
+title: "Exploring Species Interaction Records By Pointing and Clicking"
 teaching: 15
 exercises: 15
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "Data Sources: Interaction Data Record Review"
+title: "Interaction Data Record Review"
 teaching: 15
 exercises: 5
 questions:
