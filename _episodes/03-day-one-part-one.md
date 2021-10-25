@@ -19,7 +19,7 @@ keypoints:
 - "Reviewing data can be time consuming"
 ---
 
-In the [pre-workshop assignment](/01-day-one-pre-workshop-assignment) you:
+In the [pre-workshop assignment](../01-day-one-pre-workshop-assignment) you:
 
  * introduced yourself (part 1), 
  
