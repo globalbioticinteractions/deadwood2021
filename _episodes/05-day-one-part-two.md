@@ -52,7 +52,9 @@ The following sections are available (slightly adapted from a [previous workshop
 >
 {: .challenge}
 
-Please feel free to revisit the episodes we covered, and ask engage in discussion with fellow participants or meeting organizers. Also, episodes that we did not get to will be available for your to explore
+Please feel free to revisit the episodes we covered, and ask engage in discussion with fellow participants or meeting organizers. 
+
+Also, episodes that we did not get to will be available for your to explore.
 
 ## What's Next?
 
