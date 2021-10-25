@@ -182,3 +182,7 @@ At 14:30, each group will have 5 minutes to share their recommendations for the 
 
 (extra credit) consolidate the reviews into a single consensus recommendation for each publication.
 
+## What's Next?
+
+See [workshop page](../#schedule) for what is next!
+
