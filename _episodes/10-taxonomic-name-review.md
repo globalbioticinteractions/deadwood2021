@@ -1,5 +1,5 @@
 ---
-title: "(Under Construction) Day One Group Assignment Part Two"
+title: "Data Sources: Taxonomic Name Review"
 teaching: 10
 exercises: 10
 questions:
@@ -15,8 +15,6 @@ keypoints:
 - "GloBI attempts to provide reasonable links using a controlled and iterative process" 
 - "GloBI taxonomic name linking process is likely imperfect and subjective"
 ---
-
-{% include episode_gettingstarted.md %}
 
 ## Goal
 
