@@ -86,10 +86,7 @@ So, "no:match" names might include names that contain typos, but may also includ
 >
 {: .challenge}
 
-
 ## Feedback Loops
-
-
 
 > ## `Exercise 3. Reporting a suspicious name or starting a discussion` 
 >

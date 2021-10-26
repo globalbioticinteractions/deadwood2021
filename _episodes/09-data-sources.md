@@ -78,9 +78,3 @@ In this lesson episode, you've learned that GloBI is a search index that helps t
 
 Also, you found the list of GloBI data sources and discovered the search-by-datasource, review and configuration links.
 
-## Next Up: Reviewing the Reviews
-
-If you'd like to learn more about what a data review is, please jump to [Reviewing Interaction Records](../07-reviewing-interaction-records). 
-
-If you are specifically interested in how GloBI links to taxonomic names, please visit lesson episode [Reviewing Taxonomic Names](../06-reviewing-taxonomic-names).
-
