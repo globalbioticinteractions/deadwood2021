@@ -1,5 +1,5 @@
 ---
-title: "Day One Pre-workshop Assignment"
+title: "Day Two Pre-workshop Assignment"
 teaching: 0
 exercises: 30
 questions:
