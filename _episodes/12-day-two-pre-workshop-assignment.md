@@ -158,7 +158,7 @@ Please also consider reading the following references suggested by [Dr. Talya Ha
 >
 >  - _"[...] the classic start of quantitative plant-pollinator networks so worth knowing for the history of the field [...]"_
 >
-> Blüthgen, Nico, Menzel, F. & Blüthgen, Nils, 2006. <em>BMC Ecology</em>, 6(1), p.9. Available at: [https://dx.doi.org/10.1186/1472-6785-6-9](http://dx.doi.org/10.1186/1472-6785-6-9). 
+> Blüthgen, Nico, Menzel, F. & Blüthgen, Nils, 2006. <em>BMC Ecology</em>, 6(1), p.9. Available at: [https://doi.org/10.1186/1472-6785-6-9](https://doi.org/10.1186/1472-6785-6-9). 
 >
 >   - _"[...] a nice overview of a range of metrics and what they can be used for regarding specialisation and traits (and brings up the important issue of using weighted/quantitative networks)[...]"_ 
 >
