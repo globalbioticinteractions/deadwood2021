@@ -7,7 +7,7 @@ questions:
 - "How can I create a bipartite visualizations in R?"
 - "What does it take to calculate ecological networks metrics?"
 objectives:
-- "Articulate benefits / downsides of data"
+- "Articulate benefits / downsides of data pre-processing"
 - "Discover limitations of traditional analysis and visualizations"
 keypoints:
 - "Working with big datasets often requires different tools and skills"
