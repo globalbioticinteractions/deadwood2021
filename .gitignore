@@ -16,3 +16,5 @@ vendor/
 .docker-vendor/
 Gemfile.lock
 .*history
+data/snapshot/*
+data/stable/*

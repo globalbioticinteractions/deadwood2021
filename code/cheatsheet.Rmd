@@ -1,0 +1,97 @@
+---
+title: "Cheatsheet for Deadwood Workshop Day 2"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+```{r}
+install.packages('bipartite')
+install.packages('rglobi')
+install.packages('tidyverse')
+```
+
+Plot some visualizations for pre-canned olito2015 dataset.
+
+```{r}
+library(bipartite)
+par(xpd=T)
+plotweb(bipartite::olito2015)
+visweb(bipartite::olito2015)
+```
+
+A small hard coded network to get a sense of the data structures.
+
+```{r}
+library(bipartite)
+testdata <- data.frame(higher = c("bee1","bee1","bee1","bee2","bee1","bee3"), 
+lower = c("plant1","plant2","plant1","plant2","plant3","plant4"), 
+webID = c("meadow","meadow","meadow","meadow","meadow","meadow"), freq=c(5,9,1,2,3,7))
+
+dim(testdata)
+class(testdata)
+summary(testdata)
+
+bipartite::frame2webs(testdata)-> SmallTestWeb
+
+SmallTestWeb
+```
+
+
+```{r}
+bipartite::plotweb(SmallTestWeb$meadow)
+```
+
+Use GloBI rglobi Web API to get specific interaction records
+
+```{r}
+library(dplyr)
+
+oakfun <- rglobi::get_interactions_by_taxa(sourcetaxon = "Fungi", targettaxon="Quercus", showfield=c('source_taxon_name', 'target_taxon_name')) %>%
+  select(source_taxon_name, target_taxon_name) %>%
+  mutate(webID = 'web1')
+
+# about 33k interactions
+oakfun <- readr::read_csv('../data/oakfungi.csv') %>%
+  select(source_taxon_name, target_taxon_name) %>%
+  mutate(webID = 'web1')
+
+# a smaller 100 record sample
+oakfun <- readr::read_csv('../data/oakfungi-sample.csv') %>%
+  select(source_taxon_name, target_taxon_name) %>%
+  mutate(webID = 'web1')
+
+
+head(oakfun)
+```
+
+
+Now visualize the retrieved globi data
+
+```{r}
+par(xpd=T)
+oakfun_web <- bipartite::frame2webs(oakfun, varnames = c("source_taxon_name", "target_taxon_name", "webID"))
+bipartite::plotweb(oakfun_web$web1)
+bipartite::visweb(oakfun_web$web1)
+```
+
+Here's some examples of working with network metrics. See bipartite vignette for more examples.
+
+### Group level metrics
+
+```{r}
+
+group_metrics <- bipartite::grouplevel(oakfun_web$web1, level="both", index=c("mean number of links", "weighted cluster coefficient", "effective partners", "niche overlap"), dist="bray")
+
+head(group_metrics)
+```
+
+### Species level metrics 
+
+```{r}
+species_metrics <- bipartite::specieslevel(oakfun_web$web1, level="lower", index=c("normalised degree", "PDI", "effective partners"), PDI.normalise=F)
+
+head(species_metrics)
+```

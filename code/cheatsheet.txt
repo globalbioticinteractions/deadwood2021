@@ -1,0 +1,74 @@
+## A "Big Data" Intermezzo 
+
+```
+
+"big" data excel style
+
+~~~
+crash
+~~~
+
+"big" data google sheet style 
+
+~~~
+crash
+~~~
+
+"big" data cloud style:
+
+~~~
+$$$
+~~~
+
+"big" data unix style 
+
+Power tools:
+
+ - `cat` 
+ > concatenate files and print on the standard output
+ - `gunzip`
+ > expand files 
+ - `mlr`:  https://github.com/johnkerl/miller 
+ > Miller is like awk, sed, cut, join, and sort for data formats such as CSV, TSV, tabular JSON and positionally-indexed.
+
+
+~~~
+... wait for it ...
+$ cat interactions.csv.gz\
+  | gunzip
+  | mlr --csv cut -f sourceTaxonKingdomName,targetTaxonFamilyName\
+  | wc -l
+~~~
+
+~~~
+$ time cat data/stable/interactions.csv.gz\
+  | gunzip\
+  | mlr --csv filter '$sourceTaxonKingdomName == "Fungi"'\
+  | mlr --csv filter '$targetTaxonGenusName == "Quercus"'\
+  | mlr --csv cut -f sourceTaxonName,targetTaxonName\
+  > data/oakfungi.csv
+$ time cat data/stable/interactions.csv.gz\
+  | gunzip\
+  | mlr --csv filter '$targetTaxonKingdomName == "Fungi"'\
+  | mlr --csv filter '$sourceTaxonGenusName == "Quercus"'\
+  | mlr --csv cut -f targetTaxonName,sourceTaxonName\
+  | tail -n+2\
+  >> data/oakfungi.csv
+~~~
+
+Will this change? How can you reproduce these results? 
+
+"big" data R style
+~~~
+readr::read_csv("/home/jorrit/proj/globi/deadwood2021/data/stable/interactions.csv") %>% 
++ #  filter(grepl('Quercus', sourceTaxonGenusName) | grepl('Quercus', targetTaxonGenusName)) %>% 
++ #  filter(grepl('Fungi', sourceTaxonKingdomName) | grepl('Fungi', targetTaxonKingdomName)) %>% 
++   select(sourceTaxonName, targetTaxonName) %>%
++   readr::write_csv("/home/jorrit/proj/globi/deadwood2021/data/filtered.interactions2.csv")
+Error: std::bad_alloc
+(aka crash)
+~~~
+
+
+try again 
+~~~
