@@ -3,17 +3,16 @@ title: "Day Two Group Assignment Part Two"
 teaching: 20
 exercises: 55
 questions:
-- "How do I preprocess species interactions for network analysis?"
-- "How can I create a bipartite visualizationsin R?"
-- "What kind of network statistics help understand the structure of ecological networks?"
+- "What are the likely side-effects in a data analysis pipeline?"
+- "How can I create a bipartite visualizations in R?"
+- "What does it take to calculate ecological networks metrics?"
 objectives:
-- ""
+- "Articulate benefits / downsides of data"
 - "Discover limitations of traditional analysis and visualizations"
 keypoints:
 - "Working with big datasets often requires different tools and skills"
 - "Data processing introduces errors and bias"
-- "Visualization"
-- "Quantification"
+- "Many tools are suited for small datasets only"
 ---
 
 In this session, we'll go through the steps from acquiring data, to "cleaning" data, to visualizing and analyzing the results.
