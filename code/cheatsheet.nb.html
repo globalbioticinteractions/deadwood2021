@@ -381,12 +381,16 @@ chr (2): source_taxon_name, target_taxon_name
 <h3>Group level metrics</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5ncm91cF9tZXRyaWNzIDwtIGJpcGFydGl0ZTo6Z3JvdXBsZXZlbChvYWtmdW5fd2ViJHdlYjEsIGxldmVsPVwiYm90aFwiLCBpbmRleD1jKFwibWVhbiBudW1iZXIgb2YgbGlua3NcIiwgXCJ3ZWlnaHRlZCBjbHVzdGVyIGNvZWZmaWNpZW50XCIsIFwiZWZmZWN0aXZlIHBhcnRuZXJzXCIsIFwibmljaGUgb3ZlcmxhcFwiKSwgZGlzdD1cImJyYXlcIilcblxuaGVhZChncm91cF9tZXRyaWNzKVxuYGBgIn0= -->
-<pre class="r"><code>
-group_metrics &lt;- bipartite::grouplevel(oakfun_web$web1, level=&quot;both&quot;, index=c(&quot;mean number of links&quot;, &quot;weighted cluster coefficient&quot;, &quot;effective partners&quot;, &quot;niche overlap&quot;), dist=&quot;bray&quot;)
-
-head(group_metrics)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChncm91cF9tZXRyaWNzKVxuXG5gYGAifQ== -->
+<pre class="r"><code>head(group_metrics)
+</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICBtZWFuLm51bWJlci5vZi5saW5rcy5ITCAgICAgICAgIG1lYW4ubnVtYmVyLm9mLmxpbmtzLkxMIHdlaWdodGVkLmNsdXN0ZXIuY29lZmZpY2llbnQuSEwgXG4gICAgICAgICAgICAgICAgICAgIDIzLjExMDAwMDAwICAgICAgICAgICAgICAgICAgICAgIDIuMDYwMDAwMDAgICAgICAgICAgICAgICAgICAgICAgMC4wMzg5Nzg1OSBcbndlaWdodGVkLmNsdXN0ZXIuY29lZmZpY2llbnQuTEwgICAgICAgICAgICAgICAgbmljaGUub3ZlcmxhcC5ITCAgICAgICAgICAgICAgICBuaWNoZS5vdmVybGFwLkxMIFxuICAgICAgICAgICAgICAgICAgICAgMC40NTI2NjI3MiAgICAgICAgICAgICAgICAgICAgICAwLjA4NzE3ODY2ICAgICAgICAgICAgICAgICAgICAgIDAuMzMwOTY1NjcgXG4ifQ== -->
+<pre><code>        mean.number.of.links.HL         mean.number.of.links.LL weighted.cluster.coefficient.HL 
+                    23.11000000                      2.06000000                      0.03897859 
+weighted.cluster.coefficient.LL                niche.overlap.HL                niche.overlap.LL 
+                     0.45266272                      0.08717866                      0.33096567 </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -394,11 +398,13 @@ head(group_metrics)</code></pre>
 <h3>Species level metrics</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3BlY2llc19tZXRyaWNzIDwtIGJpcGFydGl0ZTo6c3BlY2llc2xldmVsKG9ha2Z1bl93ZWIkd2ViMSwgbGV2ZWw9XCJsb3dlclwiLCBpbmRleD1jKFwibm9ybWFsaXNlZCBkZWdyZWVcIiwgXCJQRElcIiwgXCJlZmZlY3RpdmUgcGFydG5lcnNcIiksIFBESS5ub3JtYWxpc2U9RilcblxuaGVhZChzcGVjaWVzX21ldHJpY3MpXG5gYGAifQ== -->
-<pre class="r"><code>species_metrics &lt;- bipartite::specieslevel(oakfun_web$web1, level=&quot;lower&quot;, index=c(&quot;normalised degree&quot;, &quot;PDI&quot;, &quot;effective partners&quot;), PDI.normalise=F)
-
-head(species_metrics)</code></pre>
-<!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6NiwibmNvbCI6Mywic3VtbWFyeSI6eyJEZXNjcmlwdGlvbiI6WyJkZiBbNiDDlyAzXSJdfX0sInJkZiI6Ikg0c0lBQUFBQUFBQUE1MVN3VTdETUF4TjE3Vm9sZGpHRUJJbnRCOW9MM0RnaG9ZbUpHNElnYlJybG5wclJKcVVKQjN3VTN3Ylh6QkkwNFNObmlZaVJiYmY4N1BydUkvenhXV3lTQkJDSWVvSEFRb2o0NkxvK2VrdXZVYW8zek5CZ1BwbzBOaDNrM1JxTXhFYW1odmZmRjdZYzZqOTFYMGhldzYxLzlmOUdTRGl1QVJsbkhFN3JnVlB1SkFsWmxSQm51V3dsZ0NPQ0IvbTk4NmR3R29GUk5NTlpCV1dtb05VbmRJREtkNnkvZkt4STBhekVuT3E4VlJzQk0wQk8vaDhwb2dneFljaFhtdVFwRllwWlpSUTVmaXptUzZBaVVwUk5XVlFMb1dxaFBUaThTMHdMVTNaVnN3OVB0bmhzaERsa3BJZEl4am9XazJ4TE1Id3BsLzNiUWpEeW4rOEI1TWNhNXl0cEpuTFJOdU81RWhVbWdwdVJMM21yNGc2NGtCMmdGSE5teGZLVTFMVS9DVzlhaHBZdXIzSHpzWjdmdGkyN0gyN1VwRXJGUU5mVSs0M0ZURzhCT2FDb2RtRVhVUldTY3ExbjhTZ0t0TkNZNStYRU1FOFltZEQyeCtVQmIxQ0RBTUFBQT09In0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["normalised.degree"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["PDI"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["effective.partners"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"0.05882353","2":"1","3":"1","_rn_":"Amanita ovoidea"},{"1":"0.05882353","2":"1","3":"1","_rn_":"Ascochyta quercus-ilicis"},{"1":"0.05882353","2":"1","3":"1","_rn_":"Athelopsis lembospora"},{"1":"0.05882353","2":"1","3":"1","_rn_":"Beltrania querna"},{"1":"0.05882353","2":"1","3":"1","_rn_":"Beltrania rhombica"},{"1":"0.05882353","2":"1","3":"1","_rn_":"Boletus armeniacus"}],"options":{"columns":{"min":{},"max":[10],"total":[3]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 </div>
 

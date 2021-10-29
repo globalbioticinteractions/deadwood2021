@@ -83,7 +83,7 @@ Some biodiversity data infrastructures (like GloBI, GBIF) hide the complexities 
 >
 {: .challenge }
 
-Feel free to use the [cheatsheet](../code/cheatsheet.Rmd).
+Feel free to use the [cheatsheet](../code/cheatsheet.nb.html).
 
 ### Analyzing Lots of Data
 
