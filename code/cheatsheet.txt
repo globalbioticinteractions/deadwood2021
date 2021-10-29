@@ -60,15 +60,13 @@ Will this change? How can you reproduce these results?
 
 "big" data R style
 ~~~
-readr::read_csv("/home/jorrit/proj/globi/deadwood2021/data/stable/interactions.csv") %>% 
+readr::read_csv("../data/stable/interactions.csv") %>% 
 + #  filter(grepl('Quercus', sourceTaxonGenusName) | grepl('Quercus', targetTaxonGenusName)) %>% 
 + #  filter(grepl('Fungi', sourceTaxonKingdomName) | grepl('Fungi', targetTaxonKingdomName)) %>% 
 +   select(sourceTaxonName, targetTaxonName) %>%
-+   readr::write_csv("/home/jorrit/proj/globi/deadwood2021/data/filtered.interactions2.csv")
++   readr::write_csv("../data/filtered.interactions2.csv")
 Error: std::bad_alloc
 (aka crash)
 ~~~
 
 
-try again 
-~~~
