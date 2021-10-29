@@ -19,7 +19,7 @@ In this session, we'll go through the steps from acquiring data, to "cleaning" d
 
 First, we'll have a look at likely side-effects of preparing data for analysis and visualization.
 
-## Side-effects of Preparing Data 
+## Side-effects of Pre-processing Data 
 
 Data may be reformatted and "cleaned" to help facilitate analysis, visualization, and re-use. 
 
