@@ -53,16 +53,28 @@ oakfun <- rglobi::get_interactions_by_taxa(sourcetaxon = "Fungi", targettaxon="Q
   select(source_taxon_name, target_taxon_name) %>%
   mutate(webID = 'web1')
 
+head(oakfun)
+```
+
+Alternatively, use a static file
+
+```{r}
+
 # about 33k interactions
 oakfun <- readr::read_csv('../data/oakfungi.csv') %>%
   select(source_taxon_name, target_taxon_name) %>%
   mutate(webID = 'web1')
 
+head(oakfun)
+```
+
+Or a smaller static file
+
+```{r}
 # a smaller 100 record sample
 oakfun <- readr::read_csv('../data/oakfungi-sample.csv') %>%
   select(source_taxon_name, target_taxon_name) %>%
   mutate(webID = 'web1')
-
 
 head(oakfun)
 ```
