@@ -79,7 +79,7 @@ Some biodiversity data infrastructures (like GloBI, GBIF) hide the complexities 
 > 
 > 3. count the number of records in the csv file
 > 
-> 4. use this csv file to re-create the bipartite visualization of the first exercise
+> 4. use this csv file to re-create the bipartite visualization of the second exercise
 >
 {: .challenge }
 
