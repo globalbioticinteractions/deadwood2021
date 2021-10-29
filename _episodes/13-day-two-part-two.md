@@ -130,7 +130,7 @@ The bipartite r package contains various methods to quantitatively describe netw
 
 Now that we've tried a couple of ways to access, visualize, and analyze data, let's reflect on how these methods fit into a research workflow. 
 
-> ### `Discussion```
+> ## `Discussion`
 >
 > 1. What are the benefits to using a whole dataset like GloBI's ```interactions.csv.gz``` ? 
 >
@@ -146,4 +146,4 @@ Now that we've tried a couple of ways to access, visualize, and analyze data, le
 
 ## What's Next?
 
-Please see [schedule](../#schedule) for our next collaborative activity. 
+Please see [schedule](../#schedule) to see what's next. 
